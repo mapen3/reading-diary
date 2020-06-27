@@ -33,7 +33,7 @@ reading-diary
 This can be achieved by cloning the repository:
 
 ```console
-foo@bar:~$ git clone https://github.com/ldber/reading-diary.git
+$ git clone https://github.com/ldber/reading-diary.git
 ```
 
 and then creating the `library` folder. The body of `diary.tex` can be cleared and the entire contents of `references.bib` can also be cleared.
