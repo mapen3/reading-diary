@@ -18,24 +18,17 @@ Please check the following installations:
 
 Firstly, the following folder structure should be created on the local machine:
 
+```console
 reading-diary
-
     ├── diary.pdf
-
     ├── diary.tex
-
     ├── library
-
     │   └── einstein1935can.pdf
-
     ├── Makefile
-
     ├── README.md
-
     ├── references.bib
-
     └── .gitignore
-
+```
 
 This can be achieved by cloning the repository:
 
