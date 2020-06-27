@@ -1,0 +1,45 @@
+\documentclass[12pt, a4paper]{report}
+\usepackage{parskip}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{bibentry}
+\makeatletter\let\saved@bibitem\@bibitem\makeatother
+\usepackage{hyperref}
+\makeatletter\let\@bibitem\saved@bibitem\makeatother
+
+
+\newcommand{\record}[2]{\newpage\section*{\href{/library/#1.pdf}{#1}}\bibentry{#1}\fancyhf{}\lhead{#1}\rhead{#2}\par\bigbreak}
+\pagenumbering{gobble}
+\pagestyle{fancy}
+\title{Reading Diary}
+\author{Forename Surname}
+\date{\today}
+
+\begin{document}
+
+\begin{titlepage}\maketitle\end{titlepage}
+\nobibliography{references.bib}
+\bibliographystyle{ieeetr}
+\tableofcontents{}
+
+
+\chapter{Example Chapter}
+
+\record{einstein1935can}{27/06/2020}
+I can write a summary of the paper here. I can write multiple paragraphs as follows.
+\par
+The title of this page is the BibTeX key. The title itself is hyperlinked to the PDF of the paper. If the link does not work check the folder structure is consistent and perhaps try with a different PDF viewer (it works in Evince document viewer). When it comes time to cite this paper, I can quickly copy the BibTeX key into my LaTeX file without rummaging through the references.bib file. 
+\par
+Also note the bibliography entry is displayed above so that I can check the fields in the references.bib file have been entered properly. Since it contains indexable information (e.g. title, authors, year of publication, journal, etc.) we can use the search feature of the PDF viewer to find specific papers.
+\par
+Each summary begins on a new page and the header also displays the BibTeX key on the left. On the right is the date that I read the paper. There is full control over the order the summaries are displayed by moving them around in the reading.tex file. I like to have a reverse chronological order since what I read recently is at the top.
+\par
+Each paper can be assigned to a chapter for easy sorting. At the moment it is not possible to add a paper into two chapters simultaneously so I just choose the most appropriate chapter. Later on, I might make a HTML interface that allows assigning tags to each summary to make sorting more practical.
+\par
+Since this a LaTeX document, it is quite easy to enter math mode to write equations, for example:
+$$
+\sin^2\theta + \cos^2\theta = 1
+$$
+It is also possible to have tables and even draw diagrams using TikZ.
+
+\end{document}
