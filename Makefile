@@ -7,7 +7,8 @@ pdf:
 	latex ${filename}
 	dvipdf ${filename}.dvi
 	rm $(addprefix $(filename),.aux .bbl .blg .dvi .log .toc .out)
-
+clean:
+	rm $(addprefix $(filename),.aux .bbl .blg .dvi .log .toc .out)
 git:
 	git add *
 	git commit -m "Update references and diary"
