@@ -33,6 +33,26 @@
 
 
 \chapter{Stability}
+\record{shi2019early}{??/??/2020}
+Write a summary of the paper...
+
+\record{he2015big}{??/??/2020}
+Write a summary of the paper...
+
+\record{vorobev2019deadbands}{??/??/2020}
+Write a summary of the paper...
+
+\record{chevalier2018using}{??/??/2020}
+Write a summary of the paper...
+
+\record{banna2019data}{??/??/2020}
+Write a summary of the paper...
+
+\record{ren2015early}{??/??/2020}
+Write a summary of the paper...
+
+\record{chu2017complex}{??/??/2020}
+Write a summary of the paper...
 
 \record{vanfretti2020decision}{??/??/2020}
 Write a summary of the paper...
@@ -44,7 +64,20 @@ Write a summary of the paper...
 Write a summary of the paper...
 
 \record{hatziargyriou2020stability}{??/??/2020}
-Write a summary of the paper...
+\stars{5} This is a technical report that defines stability in an power system context. This updates previous definition (from 2004) to include electromagnetic phenomena that arises due to increasing prevalence of Converter Interfaced Generation (CIG). The report presents classes of stability that arise from different causes and have different remedies. The two new types of stability introduced are: resonance stability and converter-driven stability.\par
+\textbf{Definition:}
+\begin{quote}
+Power system stability is the ability of an electric power system, for a given initial operating condition, to regain a state of operating equilibrium after being subjected to a physical disturbance, with most system variables bounded so that practically the entire system remains intact.
+\end{quote}
+For an instability to be caused by CIG, there must be cascading failures - if only a single CIG fails then the system is considered stable. Conventionally, the above definition was compatible with system theory characteristations of stability: Lyapunov, uniform, asymptotic, and exponentials. When CIGs are added, the system must be modelled as a hybrid system, to consider switching phenomena of power electronics. Some considerations include: deadlock and during simulation events may not coincide with timesteps. From theoretical perspective there is the added stipulation that Lyapunov function must exhibit non-increasing behaviour at events.\par
+Stability can be thought of on different timescales, from microseconds to hours. The classes of stability are: rotor angle, voltage, frequency, resonance, and converter-driven.\par
+\textbf{Rotor angle stability:} This deals with necessary conditions to keep synchronous machines in synchronism with the grid. The physical principle is achieving an equilibrium of the electromagentic torque and the mechanical torque (provided by prime mover). Rotor angle instability can lead to separation events (Hopf Bifurcation).\par
+To prevent aperiodic transient instability there must by synchronising torque which is controlled by the excitation system of the generator and also a process called fast-valving. To prevent oscillatory instability the damping torque must be controlled. Damping torque is an inherent property of the generator, provided by the damper windings on rotating machines. The damping of oscillations can also be achieved using Power System Stabilisers (PSS). The modes of these oscillations are 0.7 to 2.5 Hz (local area) and 0.1 to 1.2 Hz (inter area).\par
+The timeframe to act is usually around \textless20 seconds for small disturbance rotor angle stability and \textless10 seconds for transient rotor angle stability. There is no consensus on the effect of CIG on small disturbance stability. For transient rotor angle stability, the total system inertia reduces as CIG become prevalent, thus causing faster rotor swings.\par
+\textbf{Voltage stability:} \par
+\textbf{Frequency stability:} \par
+\textbf{Resonance stability:} \par
+\textbf{Converter-driven stability:} \par
 
 \record{ghanavati2016identifying}{01/07/2020}
 \stars{5} This paper describes how Early Warning Sign (EWS) can be found for bifurcation and system stress. In particular, the EWS is based on the voltage ($\sigma^2$) and autocorrelation ($R(\Delta t)$)  of bus voltages. Firstly, computationally efficient method for calculating the EWS is presented and tests are performed on the New England 39 bus system. It is experimentally found that $sigma^2$ is a good EWS for load buses and $R(\Delta t)$ is a good EWS for buses close to generators with low inertia. Finding which sytem variable provide the best EWS is still unanswered, and the authors speculate it might be related to a combination of eigenvectors of the state matrix. The EWS is improved to function in the presence of measurement noise by using bandpass filters. Finally, the usefulness of EWS for locating the disturbance in the grid. It was found both $\sigma_{\Delta V}^2$ and $\sigma_{\Delta I}^2$ increased in stressed operation compared with normal operation. The autocorrelation of the line currents (not bus voltages) also can give the approximate location of the stress in the grid.\par
