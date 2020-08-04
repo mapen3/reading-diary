@@ -14,7 +14,7 @@
 \usepackage[left=.6in,top=0.6in,right=0.5in,bottom=0.45in]{geometry}
 
 \newcommand{\stars}[1]{{\count0=#1 \loop \ifnum\count0>0 \advance\count0 by -1 \ding{80}\repeat}}
-\newcommand{\record}[2]{\newpage\section*{\href{/library/#1.pdf}{#1}}\bibentry{#1}\fancyhf{}\lhead{#1}\rhead{#2}\par\bigbreak}
+\newcommand{\record}[2]{\newpage\section*{\href{./library/#1.pdf}{#1}}\bibentry{#1}\fancyhf{}\lhead{#1}\rhead{#2}\par\bigbreak}
 \pagenumbering{gobble}
 \pagestyle{fancy}
 \title{Reading Diary}
@@ -33,10 +33,11 @@
 \tableofcontents{}
 
 
-\chapter{Stability}
-\record{shi2019early}{??/??/2020}
+\chapter{Topology Identification}
+\record{deka2017structure}{??/??/2020}
 
-\chapter{System Strength}
+\chapter{Graph Similarity}
+\chapter{Fault Detection}
 
 \chapter{Example Chapter}
 

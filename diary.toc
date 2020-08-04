@@ -1,3 +1,4 @@
-\contentsline {chapter}{\numberline {1}Stability}{}{chapter.1}%
-\contentsline {chapter}{\numberline {2}System Strength}{}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Example Chapter}{}{chapter.3}%
+\contentsline {chapter}{\numberline {1}Topology Identification}{}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Graph Similarity}{}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Fault Detection}{}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Example Chapter}{}{chapter.4}%

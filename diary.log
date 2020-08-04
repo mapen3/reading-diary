@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.31)  4 AUG 2020 17:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.31)  4 AUG 2020 18:47
 entering extended mode
 **./diary.tex
 (diary.tex
@@ -898,7 +898,7 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.36 \chapter
-             {Stability} [1
+             {Topology Identification} [1
 
 ]
 Chapter 1.
@@ -906,12 +906,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.37 \record{shi2019early}{??/??/2020}
-                                       [2
+l.37 \record{deka2017structure}{??/??/2020}
+                                            [2
 
 ]
 
-LaTeX Warning: Citation `shi2019early' undefined on input line 37.
+LaTeX Warning: Citation `deka2017structure' undefined on input line 37.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -924,14 +924,14 @@ een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.39 \chapter
-             {System Strength} [3]
+             {Graph Similarity} [3]
 Chapter 2.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.41 \chapter
-             {Example Chapter} [4
+l.40 \chapter
+             {Fault Detection} [4
 
 ]
 Chapter 3.
@@ -939,36 +939,45 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.43 \record{einstein1935can}{27/06/2020}
-                                          [5
+l.42 \chapter
+             {Example Chapter} [5
+
+]
+Chapter 4.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.44 \record{einstein1935can}{27/06/2020}
+                                          [6
 
 ]
 
-LaTeX Warning: Citation `einstein1935can' undefined on input line 43.
+LaTeX Warning: Citation `einstein1935can' undefined on input line 44.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.55 \end{document}
-                    [6]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
+l.56 \end{document}
+                    [7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
  (diary.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 55.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 55.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
 Package rerunfilecheck Info: File `diary.out' has not changed.
-(rerunfilecheck)             Checksum: 27AB1A6D3DC0A41244455A3CEE162EA4;144.
+(rerunfilecheck)             Checksum: 1789712C35B07DDF5D219F2B3EC5BF8A;209.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 19656 strings out of 481225
- 402018 string characters out of 2903328
- 671304 words of memory out of 3000000
- 34807 multiletter control sequences out of 15000+200000
+ 19658 strings out of 481225
+ 402048 string characters out of 2903328
+ 671305 words of memory out of 3000000
+ 34808 multiletter control sequences out of 15000+200000
  544840 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,11n,83p,821b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -978,9 +987,9 @@ ts/cm/cmbx12.pfb><C:/Users/AbuBakr/AppData/Local/Programs/MiKTeX 2.9/fonts/type
  2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/AbuBakr/AppData/Local/P
 rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/AbuBakr/A
 ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on diary.pdf (7 pages, 72606 bytes).
+Output written on diary.pdf (8 pages, 75723 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
