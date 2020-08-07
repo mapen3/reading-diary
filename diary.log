@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.31)  4 AUG 2020 18:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.31)  7 AUG 2020 13:54
 entering extended mode
 **./diary.tex
 (diary.tex
@@ -745,6 +745,23 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
+("C:\Users\AbuBakr\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyvrb\fancyvr
+b.sty"
+Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count287
+\FV@InFile=\read3
+\FV@TabBox=\box78
+\c@FancyVerbLine=\count288
+\FV@StepNumber=\count289
+\FV@OutFile=\write4
+)
+("C:\Users\AbuBakr\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\verbatim.s
+ty"
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks35
+\verbatim@line=\toks36
+\verbatim@in@stream=\read4
+)
 ("C:\Users\AbuBakr\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometr
 y.sty"
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -753,9 +770,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 ty"
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count287
-\Gm@cntv=\count288
-\c@Gm@tempcnt=\count289
+\Gm@cnth=\count290
+\Gm@cntv=\count291
+\c@Gm@tempcnt=\count292
 \Gm@bindingoffset=\dimen257
 \Gm@wd@mp=\dimen258
 \Gm@odd@mp=\dimen259
@@ -764,36 +781,38 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutheight=\dimen262
 \Gm@layouthoffset=\dimen263
 \Gm@layoutvoffset=\dimen264
-\Gm@dimlist=\toks35
+\Gm@dimlist=\toks37
 
 ("C:\Users\AbuBakr\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometr
 y.cfg"))
+Package hyperref Info: Option `colorlinks' set `true' on input line 23.
+
 ("C:\Users\AbuBakr\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3back
 end-pdfmode.def"
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count290
-\l__pdf_internal_box=\box78
+\l__kernel_color_stack_int=\count293
+\l__pdf_internal_box=\box79
 ) (diary.aux)
 \openout1 = `diary.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-\AtBeginShipoutBox=\box79
-Package hyperref Info: Link coloring OFF on input line 28.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+\AtBeginShipoutBox=\box80
+Package hyperref Info: Link coloring ON on input line 34.
 
 ("C:\Users\AbuBakr\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref
 .sty"
@@ -807,31 +826,31 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 \gettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count291
+\c@section@level=\count294
 )
-LaTeX Info: Redefining \ref on input line 28.
-LaTeX Info: Redefining \pageref on input line 28.
-LaTeX Info: Redefining \nameref on input line 28.
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \nameref on input line 34.
  (diary.out) (diary.out)
-\@outlinefile=\write4
-\openout4 = `diary.out'.
+\@outlinefile=\write5
+\openout5 = `diary.out'.
 
 
 ABD: EveryShipout initializing macros
 ("C:\Users\AbuBakr\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp
 -pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count292
+\scratchcounter=\count295
 \scratchdimen=\dimen265
-\scratchbox=\box80
-\nofMPsegments=\count293
-\nofMParguments=\count294
-\everyMPshowfont=\toks36
-\MPscratchCnt=\count295
+\scratchbox=\box81
+\nofMPsegments=\count296
+\nofMParguments=\count297
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count298
 \MPscratchDim=\dimen266
-\MPnumerator=\count296
-\makeMPintoPDFobject=\count297
-\everyMPtoPDFconversion=\toks37
+\MPnumerator=\count299
+\makeMPintoPDFobject=\count300
+\everyMPtoPDFconversion=\toks39
 )
 ("C:\Users\AbuBakr\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\eps
 topdf-base.sty"
@@ -873,13 +892,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
 
 ("C:\Users\AbuBakr\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd
 "
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
 
 
 ("C:\Users\AbuBakr\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd
@@ -890,29 +909,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 {C:/Users/AbuBakr/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 No file diary.bbl.
 (diary.toc)
-\tf@toc=\write5
-\openout5 = `diary.toc'.
+\tf@toc=\write6
+\openout6 = `diary.toc'.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 \chapter
-             {Topology Identification} [1
+l.41 \newpage
+              [1
 
 ]
-Chapter 1.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.37 \record{deka2017structure}{??/??/2020}
-                                            [2
-
-]
-
-LaTeX Warning: Citation `deka2017structure' undefined on input line 37.
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
 Make it at least 14.49998pt.
@@ -923,15 +930,33 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.39 \chapter
-             {Graph Similarity} [3]
+l.45 \chapter
+             {Topology Identification} [2]
+Chapter 1.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.46 \record{deka2017structure}{??/??/2020}
+                                            [3
+
+]
+
+LaTeX Warning: Citation `deka2017structure' undefined on input line 46.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.48 \chapter
+             {Graph Similarity} [4]
 Chapter 2.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.40 \chapter
-             {Fault Detection} [4
+l.49 \chapter
+             {Fault Detection} [5
 
 ]
 Chapter 3.
@@ -939,57 +964,72 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.42 \chapter
-             {Example Chapter} [5
+l.50 \record{razzaghi2013efficient}{7/8/2020}
+                                              [6
 
 ]
+
+LaTeX Warning: Citation `razzaghi2013efficient' undefined on input line 50.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.52 \chapter
+             {Example Chapter} [7]
 Chapter 4.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.44 \record{einstein1935can}{27/06/2020}
-                                          [6
+l.54 \record{einstein1935can}{27/06/2020}
+                                          [8
 
 ]
 
-LaTeX Warning: Citation `einstein1935can' undefined on input line 44.
+LaTeX Warning: Citation `einstein1935can' undefined on input line 54.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.56 \end{document}
-                    [7]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
+l.66 \end{document}
+                    [9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 66.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 66.
  (diary.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 66.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 66.
 Package rerunfilecheck Info: File `diary.out' has not changed.
-(rerunfilecheck)             Checksum: 1789712C35B07DDF5D219F2B3EC5BF8A;209.
+(rerunfilecheck)             Checksum: 477AAA4AB2A75042E4F0C7D47F9070C3;259.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 19658 strings out of 481225
- 402048 string characters out of 2903328
- 671305 words of memory out of 3000000
- 34808 multiletter control sequences out of 15000+200000
- 544840 words of font info for 66 fonts, out of 3000000 for 9000
+ 20071 strings out of 481225
+ 408699 string characters out of 2903328
+ 679546 words of memory out of 3000000
+ 35208 multiletter control sequences out of 15000+200000
+ 545361 words of font info for 68 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,11n,83p,821b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/AbuBakr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmbx12.pfb><C:/Users/AbuBakr/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi12.pfb><C:/Users/AbuBakr/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/AbuBakr/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/AbuBakr/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on diary.pdf (8 pages, 75723 bytes).
+1/public/amsfonts/cm/cmex10.pfb><C:/Users/AbuBakr/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/AbuBakr/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/AbuBakr/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/
+Users/AbuBakr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr12.pfb><C:/Users/AbuBakr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr17.pfb><C:/Users/AbuBakr/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/AbuBakr/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Users/AbuBakr/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on diary.pdf (10 pages, 124865 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 146 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 

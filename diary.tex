@@ -11,34 +11,44 @@
 \usetikzlibrary{trees,positioning,shapes,shadows,arrows}
 \usepackage{amsmath}
 \usepackage{amsfonts}
+\usepackage{fancyvrb}
+\usepackage{verbatim}
 \usepackage[left=.6in,top=0.6in,right=0.5in,bottom=0.45in]{geometry}
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=cyan,
+}
 
 \newcommand{\stars}[1]{{\count0=#1 \loop \ifnum\count0>0 \advance\count0 by -1 \ding{80}\repeat}}
 \newcommand{\record}[2]{\newpage\section*{\href{./library/#1.pdf}{#1}}\bibentry{#1}\fancyhf{}\lhead{#1}\rhead{#2}\par\bigbreak}
 \pagenumbering{gobble}
 \pagestyle{fancy}
+
 \title{Reading Diary}
-\author{Lakshan Bernard}
+\author{Abu Pengwah\\The Latex-source code is proprietary to Lakshan Bernard}
 \tikzset{mystyle/.style={fill=blue}}
 \date{\today}
-
-
-
-
 \begin{document}
 
-\begin{titlepage}\maketitle\end{titlepage}
+\begin{titlepage}\maketitle
+\end{titlepage}
 \nobibliography{references.bib}
 \bibliographystyle{ieeetr}
 \tableofcontents{}
-
+\newpage
+\section{Unread Papers}
+\VerbatimInput{filelog_unreadfiles.txt}
 
 \chapter{Topology Identification}
 \record{deka2017structure}{??/??/2020}
 
 \chapter{Graph Similarity}
 \chapter{Fault Detection}
-
+\record{razzaghi2013efficient}{7/8/2020}
+Fault event can be described as an injection in the power system in a step-like wave. Reflection coefficients, $\rho$, whose values depend on the line surge and input impedance are used. It is a step-by-step process where the fault location is guessed (and the fault impedance is apriori information), and the time-reversal approach is applied using the recorded voltages. Corresponding values of the fault currents are recorded at each guessed fault location. The fault current signal energy is calculated for all the guessed fault location, $\Gamma = \sum_{j=1}^N i^2_{x_f}(j^2)$. The maximum of the fault energies corresponds to the estimated location of the faults.
 \chapter{Example Chapter}
 
 \record{einstein1935can}{27/06/2020}
