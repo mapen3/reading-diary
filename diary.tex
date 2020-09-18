@@ -47,7 +47,43 @@
 %-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 \chapter{Parameter Estimation}
 \record{frigaard1995time}{14/9/2020}
+It requires two synchronized measurement devices that measures the summation of the incident and reflected waves. Based on the phase shift introcuced between the signals, they manipulate the signals such that a phase shift causes the incident waves of the two measured signals to be in phase and the reflected signal to be in mutual opposite phases.
 
+Given two measured signals, $n_1$ \& $n2$, the amplify the two signals with a constant C and phase-shift the signals by two different values $\theta_1$ and $\theta_2$. The final signal is the summation of the two new calculated signals.
+The incident wave is in phase with the summated signal when some particular conditions are met. Those conditions enable the calculation of the constants C and $\theta$s.
+
+Filters are designed to implement the phase shifting and calculation of the incident and reflected waves. Care is to be taken for singularities in the frequency.
+Other knowns limitations include:
+\begin{itemize}
+	\item Limited Frequency Range. If the spacing between the measurement devices is too large and the frequency is also very high, the calculations of the reflections turn out to be less reliable. This is due to a decrease in the coherency factor which estimates the relative phase stability.
+	\item Measurement devices spacing. If they are spaced at x/L = n/2, singularities are present in the equations.
+	\item High errors due to non-linear interactions, harmonics and signal noise.
+\end{itemize}
+\textbf{Least Squares Method}
+
+In this case, a 3 point method is used (i,e 3 measurement devices). The problem is formulated with the fourier coefficients of the measured signals. The number of measuring devices make the system overdetermined.
+
+\textbf{Some issues for multi junction cables:}
+
+All the methods suggest that it is difficult for cases where you have multiple reflections from different sources (non-linear). A method to identify which wave is the first, second, third and so on is more desirable to enhance the reliability.
+
+\textbf{Papers using Time Domain Reflectometry to find incident and reflected waves}
+
+The papers (proceedings letter, trans on microwave 2002) read so far use \textbf{sequential} readings to find the incident, reflected waves and the characteristic impedance.
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+\record{Cepstrum}{}
+The power cepstrum of a data sequence is the square of the inverse z-transform of the logarithm of the magnitude squared of the z-transform of the data sequence. 
+For the case of a composite signal consisting of the basic wavelet and a single echo, the logarithm of the magnitude squared of the z transform of the composite signal will contain cosinusoidal ripples whose amplitude and quefrequency (frequency of the ripples) are related to the echo amplitude and delay respectively.
+
+The presence of multiple echoes can and does confuse the interpretation procedure because of the non linearity introduced by the log function. When multiple echoes are present and the amplitude of the echo is very large, the authors propose
+\begin{itemize}
+	\item Power spectrum where some form of mean removal is applied before the second transformation.\item power spectrum of the square root of the power spectrum.
+	\item power spectrum of the logarithm of the power spectrum.
+\end{itemize}
+Negative reflection coefficients give valuable information since they lead to spectral nulls. By measuring the frequency between two spectral nulls, they can determine the time delay.
+
+Pseudo autocorrelation is defined as the inverse fourier transform of the liftered(filtered) power spectrum. If a negative reflection is present, the cepstrum will have a positive peak while the pseudo autocorrelation will have a negative peak.
+This procedure can help separate multiple echoes, including multiple path reflections.
 %-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 \chapter{Fault Detection}
 \record{razzaghi2013efficient}{7/8/2020}
