@@ -24,6 +24,7 @@
 
 \newcommand{\stars}[1]{{\count0=#1 \loop \ifnum\count0>0 \advance\count0 by -1 \ding{80}\repeat}}
 \newcommand{\record}[2]{\newpage\section*{\href{./library/#1.pdf}{#1}}\bibentry{#1}\fancyhf{}\lhead{#1}\rhead{#2}\par\bigbreak}
+\newcommand{\subrecord}[1]{\\{\href{./library/#1.pdf}{#1}}\bibentry{#1}\par\bigbreak}
 \pagenumbering{gobble}
 \pagestyle{fancy}
 
@@ -73,6 +74,11 @@ The papers (proceedings letter, trans on microwave 2002) read so far use \textbf
 %-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 \record{Cepstrum}{}
 The power cepstrum of a data sequence is the square of the inverse z-transform of the logarithm of the magnitude squared of the z-transform of the data sequence. 
+\begin{equation}
+	C_p = [IFFT(\log |FFT(x(n))|^2)]^2
+\end{equation}
+Different definitions include usage of the forward z transform and/or omitting the final squaring.
+
 For the case of a composite signal consisting of the basic wavelet and a single echo, the logarithm of the magnitude squared of the z transform of the composite signal will contain cosinusoidal ripples whose amplitude and quefrequency (frequency of the ripples) are related to the echo amplitude and delay respectively.
 
 The presence of multiple echoes can and does confuse the interpretation procedure because of the non linearity introduced by the log function. When multiple echoes are present and the amplitude of the echo is very large, the authors propose
@@ -84,6 +90,47 @@ Negative reflection coefficients give valuable information since they lead to sp
 
 Pseudo autocorrelation is defined as the inverse fourier transform of the liftered(filtered) power spectrum. If a negative reflection is present, the cepstrum will have a positive peak while the pseudo autocorrelation will have a negative peak.
 This procedure can help separate multiple echoes, including multiple path reflections.
+
+Windowing techniques could be employed to improve wavelet recovery. For low snr measurements, rectangular or Hanning window of the complex cepstrum can be used to improve the fidelity of the recovered wavelet. The authors do mention that this is probably data dependent and can also be influenced by the duration of the window. The authors mention in their summary that exponential or rectangular windows are more useful.
+
+\textbf{Signal Detection and Extraction by Cepstrum Techniques.pdf}
+
+They distinguish between power cepstrum and complex cepstrum. Power cepstrum is used to identify the echo arrival time. It does not have the information about the phase of the signal. The complex cepstrum gives both the information about the echo arrival time and the phase, and this is why complex cepstrum is used when the echoes or the basic wavelet are to be recovered from the composite signal.
+
+\textit{Multiple echoes scenarios:} If the echo arrival times are different, then peaks appear in the power cepstrum at $t_0, t_1$ and $t_0 - t_1$. The amplitudes for these scenarios are hard to evaluate. They can correspond to multiple terms depending on the values of the propagation times. Hanning smoothing is once again mentioned for noisy measurements, and it improves the detection of echoes.
+
+\textbf{Digital fourier analysis advanced techniques.pdf}
+
+The authors look at the periodogram of a composite signal and they mention that the periodicity of the spectrum is clearer after averaging the periodogram. The logarithm based cepstrum is used for its 2 advantages:
+\begin{enumerate}
+	\item The decibel scale makes the small values (frequencies) more visible.
+	\item Logarithm of multiplication turns out to be a summation.
+\end{enumerate}
+The second term in the log function is a periodic signal with the period N/d, where N is the number of samples and d is the time delay. Taking the DFT of the log function gives a peak at the reciprocal, i.e, d/N.
+
+\textbf{Prevent Aliasing}
+
+To avoid aliasing in the power cepstrum one must ensure that m$\tau$ $<$ T/2, where m is the order of the highest discernible term in the reflection sequence, $\tau$ is the echo delay time, and T is the record length. It is good practice to ensure that $\tau$ $<<$ T, which may be achieved either by an appropriate choice of the physical parameters of the experiment, or by zero padding the original time history. If neither of these approaches are possible, exponentially weighting the time history also reduces cepstral aliasing.
+%-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+\record{kouassi2016reliability}{21/9/2020}
+This is the first paper read on SOBOL analysis. Sobol is a global sensitivity analysis metric. There are several methods including screening methods, variance methods, nonparametric methods and density based methods. The authors focus on the variance based method. The variance of the output is given as the sum of the marginal and partial variances of the input. We have different orders of sobol sensitivity indices. The first order quantifies the main effect of the input alone on the output. The higher orders quantify the interactions between multiple terms in the input whilst not considering the single effects due to inputs alone. A large sobol index means that the corresponding random or group of components has/have a significant effect on the output Y.
+
+Since we might have a large number of indices,, they use the term called total sensitivity indices. It is defined as the sum of all sensitivity indices related to an input. For example with 3 terms: $st_1 = s_1 + s_{12} + s_{123}$. Sobol indices are normally calculated using Monte Carlo methods.\\
+%+++++++++++++++++++++++++
+\subrecord{ni2017variance}
+The variance based GSA is further explored. Compared to other methods, variance GSA is known to give information about the model structure. Monte Carlo simulations for large networks with many input parameters are known to be computationally intensive. The authors propose to use a different simulation technique to improve the efficiency of the system. The indices obtained from their method is easily interpreted when there is correlation between the inputs.
+
+Under independent input uncertainties, we use the ANOVA method (variance-based). They quantify the contribution of each variable to the variance of the output. IF physical interactions among the input factors exist, the second or higher order sobol indices must be analysed. 
+
+In case of correlated inputs, ANCOVA(covariance-based) is used. 
+
+\textbf{A review on Global sensitivity analysis methods: Bertrand Ioss and Paul Lemaitre}
+
+Sobol variance-based GSA is used when the model is non-linear and non-monotonic (a monotonic function is one which is either strictly increasing or decreasing; it can't be a sinusoidal like function).To get precise estimates of Sobol indices, we need a large number of model calls. $10^4$ model calls approximately gives the indices with an uncertainty of 10\%. Figures 6 \& 7 is a good descriptive figure. For cases where there is a large number of parameters, screening techniques are used to identify the inputs not contributing to the output. Once identified, these inputs are kept to their nominal values and the other inputs are given their distribution.
+
+\textbf{Global Sensitivity Analysis: The Primer}
+
+
 %-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 \chapter{Fault Detection}
 \record{razzaghi2013efficient}{7/8/2020}
