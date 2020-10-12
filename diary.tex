@@ -111,6 +111,12 @@ The second term in the log function is a periodic signal with the period N/d, wh
 \textbf{Prevent Aliasing}
 
 To avoid aliasing in the power cepstrum one must ensure that m$\tau$ $<$ T/2, where m is the order of the highest discernible term in the reflection sequence, $\tau$ is the echo delay time, and T is the record length. It is good practice to ensure that $\tau$ $<<$ T, which may be achieved either by an appropriate choice of the physical parameters of the experiment, or by zero padding the original time history. If neither of these approaches are possible, exponentially weighting the time history also reduces cepstral aliasing.
+
+\textbf{Points about transmission and reflection coefficients:}
+
+Transmitted wave = incident wave + reflected wave.
+
+The transmission coefficient, also called the refraction coefficient, for \textbf{current waves} is given as $2Z_o / (Z_o + R)$ for a line having a characteristic impedance of $Z_o$ and ending in resistance $R$. The transmission coefficient for the \textbf{voltage waves} is given as $2R / (Z_o + R)$.
 %-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 \record{kouassi2016reliability}{21/9/2020}
 This is the first paper read on SOBOL analysis. Sobol is a global sensitivity analysis metric. There are several methods including screening methods, variance methods, nonparametric methods and density based methods. The authors focus on the variance based method. The variance of the output is given as the sum of the marginal and partial variances of the input. We have different orders of sobol sensitivity indices. The first order quantifies the main effect of the input alone on the output. The higher orders quantify the interactions between multiple terms in the input whilst not considering the single effects due to inputs alone. A large sobol index means that the corresponding random or group of components has/have a significant effect on the output Y.
