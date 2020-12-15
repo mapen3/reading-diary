@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.31)  9 OCT 2020 13:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.31)  24 NOV 2020 17:57
 entering extended mode
 **./diary.tex
 (diary.tex
@@ -980,16 +980,26 @@ l.111 \textbf{Prevent Aliasing}
 same identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.121 \record{kouassi2016reliability}{21/9/2020}
-                                                 [8]
+l.121 \record{Echo Detection Techniques}{}
+                                           [8]
 
-LaTeX Warning: Citation `kouassi2016reliability' undefined on input line 121.
+LaTeX Warning: Citation `Echo Detection Techniques' undefined on input line 121
+.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.124 \record{kouassi2016reliability}{21/9/2020}
+                                                 [9]
+
+LaTeX Warning: Citation `kouassi2016reliability' undefined on input line 124.
 
 
-LaTeX Warning: Citation `ni2017variance' undefined on input line 126.
+LaTeX Warning: Citation `ni2017variance' undefined on input line 129.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--126
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
 
  []
 
@@ -997,58 +1007,58 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.141 \chapter
-              {Fault Detection} [9]
+l.144 \chapter
+              {Fault Detection} [10]
 Chapter 3.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.142 \record{razzaghi2013efficient}{7/8/2020}
-                                               [10
+l.145 \record{razzaghi2013efficient}{7/8/2020}
+                                               [11
 
 ]
 
-LaTeX Warning: Citation `razzaghi2013efficient' undefined on input line 142.
+LaTeX Warning: Citation `razzaghi2013efficient' undefined on input line 145.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.145 \record{wang2018electromagnetic}{4/9/2020}
-                                                 [11]
+l.148 \record{wang2018electromagnetic}{4/9/2020}
+                                                 [12]
 
-LaTeX Warning: Citation `wang2018electromagnetic' undefined on input line 145.
+LaTeX Warning: Citation `wang2018electromagnetic' undefined on input line 148.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.148 \chapter
-              {Example Chapter} [12]
+l.151 \chapter
+              {Example Chapter} [13]
 Chapter 4.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.150 \record{einstein1935can}{27/06/2020}
-                                           [13
+l.153 \record{einstein1935can}{27/06/2020}
+                                           [14
 
 ]
 
-LaTeX Warning: Citation `einstein1935can' undefined on input line 150.
+LaTeX Warning: Citation `einstein1935can' undefined on input line 153.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.162 \end{document}
-                     [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
+l.165 \end{document}
+                     [15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 165.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 165.
  (diary.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 165.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 165.
 Package rerunfilecheck Info: File `diary.out' has not changed.
 (rerunfilecheck)             Checksum: FD9DBD8222A21E8D776986801176D6CC;263.
 
@@ -1057,10 +1067,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 20094 strings out of 481225
- 409047 string characters out of 2903328
+ 20097 strings out of 481225
+ 409123 string characters out of 2903328
  682579 words of memory out of 3000000
- 35217 multiletter control sequences out of 15000+200000
+ 35218 multiletter control sequences out of 15000+200000
  546045 words of font info for 70 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,12n,83p,821b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1080,9 +1090,9 @@ kr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 <C:/Users/AbuBakr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmti12.pfb><C:/Users/AbuBakr/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
 public/amsfonts/cm/cmtt12.pfb>
-Output written on diary.pdf (15 pages, 166852 bytes).
+Output written on diary.pdf (16 pages, 167914 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
+ 200 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
  149 words of extra memory for PDF output out of 10000 (max. 10000000)
 
