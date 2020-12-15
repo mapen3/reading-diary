@@ -116,7 +116,20 @@ To avoid aliasing in the power cepstrum one must ensure that m$\tau$ $<$ T/2, wh
 
 Transmitted wave = incident wave + reflected wave.
 
-The transmission coefficient, also called the refraction coefficient, for \textbf{current waves} is given as $2Z_o / (Z_o + R)$ for a line having a characteristic impedance of $Z_o$ and ending in resistance $R$. The transmission coefficient for the \textbf{voltage waves} is given as $2R / (Z_o + R)$.
+The transmission coefficient, also called the refraction coefficient, for \textbf{current waves} is given as $2Z_o / (Z_o + R)$ for a line having a characteristic impedance of $Z_o$ and ending in resistance $R$. The transmission coefficient for the \textbf{voltage waves} is given as $2R / (Z_o + R)$.\\
+
+\textbf{A history of cepstrum analysis and its application to mechanical problems}
+
+Refer to references 6, 16 and 20.
+
+Look for exponential lifter used in the cepstrum analysis. First insight indicate that it is used when the component to be determined varies a by a large percent.
+
+A version called the differential cepstrum exists where it is described as the inverse z transform of the derivative of the log spectrum. Tasking the derivative in one domain corresponds to multiplication by the independent variable in the other domain.
+Another version is called the mean differential cepstrum: It permits averaging over a number of realizations, for example the response of a system excited by a burst of random sequence.
+
+\textbf{Reference 6: Echo removal by discrete generalized linear filtering} and presence of cepstral peak in random reflected ultrasound signals did not have much information about the mathematics. The second paper delved a bit on multipath propagations and their effects on identifying the relevant peaks.
+
+
 %-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 \record{Echo Detection Techniques}{}
 \textbf{Laser Ultrasound Inspection Based on Wavelet Transform and Data Clustering for Defect Estimation in Metallic Samples}
